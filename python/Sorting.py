@@ -12,10 +12,18 @@ def insertion_sort(aList):
 	for i in range(1, len(aList)):
 		val = aList[i]
 		j = i
-		whilge (j > 0) and (val < aList[j - 1]):
+		while (j > 0) and (val < aList[j - 1]):
 			aList[j] = aList[j - 1]
 			j = j - 1
-		aList[j] = val	
+		aList[j] = val
+
+"""
+Merge sort:
+	- Subdivides list into two sub-lists, sorting them recursively and then merging them back together.
+	- Recursive calls subdivide lists down to size 1 (which is already sorted).
+"""
+
+def merge_sort() 
 
 
 def main():
