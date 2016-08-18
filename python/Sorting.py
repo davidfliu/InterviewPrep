@@ -5,6 +5,10 @@ Insertion Sort:
 	- Takes elements from an unsorted list and inserting them at the right place in a new sorted list.
 	- Sorted list is empty from the start.
 	- Total # of elements is the same in new and old list.
+Complexity:
+	- Best O(n)
+	- Average O(n^2)
+	- Worst O(n^2)
 """
 
 def insertionSort(aList):
@@ -21,6 +25,10 @@ def insertionSort(aList):
 Merge sort:
 	- Subdivides list into two sub-lists, sorting them recursively and then merging them back together.
 	- Recursive calls subdivide lists down to size 1 (which is already sorted).
+Complexity:
+	- Best O(n log(n))
+	- Average O(n log(n))
+	- Worst O(n^2)
 """
 
 def mergeSort(alist):
@@ -61,6 +69,10 @@ Quick Sort:
 	- Selects a pivot value from list. 
 	- Creates two list, one with elements less than pivot and greater than.
 	- Sorts two lists and joins them with pivot.
+Complexity:
+	- Best O(n log(n))
+	- Average O(n log(n))
+	- Worst O(n^2)
 """
 def quickSort(aList):
 	if len(aList) > 1:
